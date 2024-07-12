@@ -13,27 +13,27 @@ Create a simple task management application.
 
 1. **Register and Login**:
  
-a. Users should be able to register with their email and password.
+  a. Users should be able to register with their email and password.
 
-b. Implement login functionality.
+  b. Implement login functionality.
 
-4. **Task Management**:
-5. 
-a. After logging in, users should be able to create, view, update, and delete tasks.
+2. **Task Management**:
+   
+  a. After logging in, users should be able to create, view, update, and delete tasks.
 
-b. Each task should have a title, description, and status (e.g., To Do, In Progress, Done).
+  b. Each task should have a title, description, and status (e.g., To Do, In Progress, Done).
 
-6. **Backend**:
+3. **Backend**:
 
-a. Use Node.js and Express to create RESTful APIs for user authentication and task management.
+  a. Use Node.js and Express to create RESTful APIs for user authentication and task management.
 
-b. Use MongoDB as the database to store user and task information.
+  b. Use MongoDB as the database to store user and task information.
 
-7. **Frontend**:
+4. **Frontend**:
 
-a. Use React to create a user interface for the task management application.
+  a. Use React to create a user interface for the task management application.
 
-b. Ensure the UI is user-friendly and responsive.
+  b. Ensure the UI is user-friendly and responsive.
 
 
 
@@ -75,20 +75,20 @@ b. Ensure the UI is user-friendly and responsive.
       cd backend
    ``
 
-4. Install dependencies::
+3. Install dependencies::
    
    `` bash
       npm install
    ``
    
-5. Create a .env file and add the following environment variables:
+4. Create a .env file and add the following environment variables:
    
   `` bash
       PORT=4000
       MONGO_URI=your_mongodb_uri
       
    ``
-6. Start the backend server:
+5. Start the backend server:
 
     `` bash
       npm run server
@@ -103,19 +103,19 @@ b. Ensure the UI is user-friendly and responsive.
   Install dependencies:
   ``
 
-3. Navigate to the backend directory:
+2. Navigate to the backend directory:
    
    `` bash
       cd backend
    ``
    
-4. Install dependencies::
+3. Install dependencies::
    
    `` bash
       npm install
    ``
 
-5. Start the backend server:
+4. Start the backend server:
    
     `` bash
       npm start
