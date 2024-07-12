@@ -58,7 +58,7 @@ export const addTask = (task, id) => async (dispatch) => {
 		task,
 		id,
 	};
-	const response = await axios.post('http://localhost:4000/task/add', taskData);
+	const response = await axios.post('https://task-management-application-2.onrender.com/task/add', taskData);
 	if (response) {
 		localStorage.setItem('task', JSON.stringify(response.data));
 
@@ -82,7 +82,7 @@ export const getAllTasks = (token, id) => async (dispatch) => {
 
 	try {
 		const response = await axios.get(
-			'http://localhost:4000/task/tasks',
+			'https://task-management-application-2.onrender.com/task/tasks',
 			config
 		);
 
@@ -105,7 +105,7 @@ export const arrowClick = (item, string) => async () => {
 
 	try {
 		let response = await axios.put(
-			`http://localhost:4000/task/${taskData.id}`,
+			`https://task-management-application-2.onrender.com/task/${taskData.id}`,
 			taskData
 		);
 
@@ -118,7 +118,7 @@ export const arrowClick = (item, string) => async () => {
 };
 
 export const deleteItem = (id) => async (dispatch) => {
-	let res = await axios.delete(`http://localhost:4000/task/${id}`);
+	let res = await axios.delete(`https://task-management-application-2.onrender.com/task/${id}`);
 
 	if (res) {
 		dispatch(deleteSuccess());

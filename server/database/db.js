@@ -15,9 +15,8 @@ if (process.env.NODE_ENV !== 'production') {
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
-  // Optional: Add these options to handle deprecation warnings
-
 })
+
   .then(() => console.log('MongoDB connected successfully'))
   .catch(err => {
     console.error('Error connecting to MongoDB:', err);

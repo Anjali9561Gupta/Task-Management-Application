@@ -55,7 +55,7 @@ export const register = (user) => async (dispatch) => {
 		};
 
 		const response = await axios.post(
-			'http://localhost:4000/auth/register',
+			'https://task-management-application-2.onrender.com/auth/register',
 			user,
 			config
 		);
@@ -83,7 +83,7 @@ export const signin = (user) => async (dispatch) => {
 			password: user.password,
 		};
 		const response = await axios.post(
-			'http://localhost:4000/auth/signin',
+			'https://task-management-application-2.onrender.com/auth/signin',
 			userData
 		);
 		if (response) {
