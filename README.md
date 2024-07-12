@@ -12,16 +12,24 @@ Create a simple task management application.
 ## Key Features
 
 1. **Register and Login**:
+2. 
 a. Users should be able to register with their email and password.
+
 b. Implement login functionality.
-2. **Task Management**:
+4. **Task Management**:
+5. 
 a. After logging in, users should be able to create, view, update, and delete tasks.
+
 b. Each task should have a title, description, and status (e.g., To Do, In Progress, Done).
-3. **Backend**:
+6. **Backend**:
+
 a. Use Node.js and Express to create RESTful APIs for user authentication and task management.
+
 b. Use MongoDB as the database to store user and task information.
-4. **Frontend**:
+7. **Frontend**:
+
 a. Use React to create a user interface for the task management application.
+
 b. Ensure the UI is user-friendly and responsive.
 
 
@@ -51,27 +59,32 @@ b. Ensure the UI is user-friendly and responsive.
 ### Backend Setup
 
 1. Clone the repository:
+
    ``` bash
    git clone https://github.com/Anjali9561Gupta/Task-Management-Application.git
    cd frontend
   ``
   
 2. Navigate to the backend directory:
+   
    `` bash
       cd backend
    ``
 
-3. Install dependencies::
+4. Install dependencies::
+   
    `` bash
       npm install
    ``
    
-4. Create a .env file and add the following environment variables:
+6. Create a .env file and add the following environment variables:
+   
   `` bash
       PORT=4000
       MONGO_URI=your_mongodb_uri
    ``
-5. Start the backend server:
+8. Start the backend server:
+
     `` bash
       npm run server
    ``
@@ -79,22 +92,26 @@ b. Ensure the UI is user-friendly and responsive.
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
+   
   ``
   cd frontend
   Install dependencies:
   ``
 
-2. Navigate to the backend directory:
+3. Navigate to the backend directory:
+   
    `` bash
       cd backend
    ``
    
-3. Install dependencies::
+5. Install dependencies::
+   
    `` bash
       npm install
    ``
 
-4. Start the backend server:
+7. Start the backend server:
+   
     `` bash
       npm start
    ``
