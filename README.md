@@ -7,7 +7,7 @@ Create a simple task management application.
 
 [Go Live On](https://task-management-application-fawn.vercel.app/)
 
-[Youtube Video Link]()
+[Youtube Video Link](https://www.youtube.com/watch?v=olZ8OZPCkRg)
 
 ## Key Features
 
